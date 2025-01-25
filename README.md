@@ -16,3 +16,19 @@ This project is designed to enhance the shopping experience by providing users w
 - *Frontend*: React framework for building the user interface.  
 - *Backend*: Node.js to handle server-side operations and APIs.  
 - *Database*: MongoDB for storing user and product data efficiently.  
+
+
+*Milestone 2: Project Setup and Login Page*
+
+This milestone focuses on setting up the project structure and implementing a basic login page.
+
+*Key Features*
+
+- Project Setup: Initialized the project with the required dependencies and folder structure.
+- Login Page: A simple login page with fields for username and password.
+
+*Tech Stack Used*
+
+- Frontend: HTML, CSS, JavaScript
+- Backend: [Specify your backend tech, e.g., Node.js, Python (Flask/Django)]
+- Database: [e.g., MySQL, MongoDB, Firebase]a
