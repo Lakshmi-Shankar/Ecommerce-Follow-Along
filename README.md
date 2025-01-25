@@ -29,6 +29,4 @@ This milestone focuses on setting up the project structure and implementing a ba
 
 *Tech Stack Used*
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: [Specify your backend tech, e.g., Node.js, Python (Flask/Django)]
-- Database: [e.g., MySQL, MongoDB, Firebase]a
+- Frontend: React, Tailwindcss
