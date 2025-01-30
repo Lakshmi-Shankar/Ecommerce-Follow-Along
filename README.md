@@ -59,3 +59,17 @@ This project is a simple User Management System that allows the creation, retrie
 - **User Controller**: Manages operations like adding, retrieving, and updating user information.
 - **File Uploads**: Accepts and stores user-uploaded files (e.g., profile images).
 - **Documentation**: Well-documented code for ease of 
+
+
+*Milestone 5: Project Signup Setup*
+
+This milestone focuses on setting up the project structure and implementing a basic signup page.
+
+*Key Features*
+
+- Project Setup: Initialized the project with the required dependencies and folder structure.
+- Signup Page: A simple signup page with fields for Name Email Password User Photo.
+
+*Tech Stack Used*
+
+- Frontend: React
