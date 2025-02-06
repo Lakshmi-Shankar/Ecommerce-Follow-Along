@@ -73,3 +73,14 @@ This milestone focuses on setting up the project structure and implementing a ba
 *Tech Stack Used*
 
 - Frontend: React
+
+*Milestone 6: Password Encryption and User Data Storage*
+
+Password Encryption: Used bcrypt to hash passwords.
+
+User Data Storage: Saved user data securely in the database.
+
+GitHub Updates: Committed changes for password encryption.
+
+Tech stack used:
+- nodejs
