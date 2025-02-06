@@ -210,6 +210,7 @@ import styles from "../../styles/styles";
 import { Link } from "react-router-dom";
 import { RxAvatar } from "react-icons/rx";
 import axios from "axios";
+// eslint-disable-next-line no-unused-vars
 import { server } from "../../server";
 import { toast } from "react-toastify";
 
@@ -244,8 +245,9 @@ const Signup = () => {
 
 
     axios
-      .post(`${server}/user/create-user`, { name, email, password, avatar })
+      .post(`http://localhost:5000/api/v2`, { name, email, password, avatar })
       .then((res) => {
+        console.log(res.data)
         toast.success(res.data.message);
         setName("");
         setEmail("");
@@ -254,6 +256,7 @@ const Signup = () => {
       })
       .catch((error) => {
         toast.error(error.response.data.message);
+        console.log("err")
       });
   };
   return (
