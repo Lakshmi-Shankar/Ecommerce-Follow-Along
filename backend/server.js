@@ -1,5 +1,12 @@
 const app = require("./App");
+const express = require("express")
 const connectDatabase = require("./db/Database");
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+
+
 
 
 // Handling uncaught Exception when setting up backend server

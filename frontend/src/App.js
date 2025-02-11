@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 import { Home, LoginPage } from "./routes/routes";
 import SignupPage from './pages/SignupPage';
 
+
 const App = () => {
   return (
     <div>
