@@ -1,3 +1,3 @@
-module.exports = (theFunc) =>(requestAnimationFrame, res, next)=>{
-    Promise.resolve(theFunc(res, res, next)).catch(next)
+module.exports = (theFuunc) =>(req, res, next)=>{
+    Promise.resolve(theFuunc(req, res, next)).catch(next)
 };
