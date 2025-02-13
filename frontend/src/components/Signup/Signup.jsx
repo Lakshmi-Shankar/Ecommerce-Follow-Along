@@ -29,7 +29,7 @@ const Signup = () => {
     newForm.append("password", password);
 
     try {
-      const res = await axios.post("http://localhost:5000/api/v2/user", newForm, {
+      const res = await axios.post("http://localhost:4444/api/v2/user", newForm, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       toast.success(res.data.message);
