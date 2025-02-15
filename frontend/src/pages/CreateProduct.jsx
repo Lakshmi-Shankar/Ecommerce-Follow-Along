@@ -22,10 +22,8 @@ const CreateProduct = () => {
         { title: "Home Appliances" },
     ];
 
-
     const handleImagesChange = (e) => {
         const files = Array.from(e.target.files);
-
 
         setImages((prevImages) => prevImages.concat(files));
 
@@ -56,7 +54,7 @@ const CreateProduct = () => {
 
 
         try {
-            const response = await axios.post("http://localhost:8000/api/v2/product/create-product", formData, {
+            const response = await axios.post("http://localhost:5000/api/v2/product/create-product", formData, {
                 headers: {
                     "Content-Type": "multipart/form-data",
                 },
@@ -79,9 +77,6 @@ const CreateProduct = () => {
             alert("Failed to create product. Please check the data and try again.");
         }
     };
-
-
-
 
     return (
         <div className="w-[90%] max-w-[500px] bg-white shadow h-auto rounded-[4px] p-4 mx-auto">
@@ -209,14 +204,11 @@ const CreateProduct = () => {
                 </div>
                 <button
                     type="submit"
-                    className="w-full mt-4 bg-blue-500 text-white p-2 rounded"
-                >
+                    className="w-full mt-4 bg-blue-500 text-white p-2 rounded">
                     Create
                 </button>
             </form>
         </div>
     );
 };
-
-
 export default CreateProduct;

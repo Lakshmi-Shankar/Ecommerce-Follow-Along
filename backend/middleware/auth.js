@@ -1,3 +1,3 @@
 const ErrorHandler = require("../utils/ErrorHandler");
-const catchAysncError = require("./catchAsyncErrors");
+const catchAsyncErrors = require("./catchAsyncErrors");
 const jwt = require("jsonwebtoken");
