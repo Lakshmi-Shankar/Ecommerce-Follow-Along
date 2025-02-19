@@ -195,3 +195,14 @@ We have changed the product.js in controller and few major changes in frontend.
 
 In this milestone, we created a delete button to delete the already entered details which makes the product page more customizable. It allows the user to delete the product.
 We have changed the product.js in controller and few major changes in frontend.
+
+
+*Milestone 15 - Reusable Navigation Component*  
+
+In this milestone, we created a reusable and responsive navigation bar for our eCommerce project. The Nav component includes links to essential pages like home, My Products, Add Product, and Cart. It was designed to be adaptive and user-friendly using CSS for responsiveness. This component was then integrated across multiple pages to ensure seamless navigation throughout the app. 
+
+
+Tech Stalk :
+
+Frontend:
+React.js – For building the Nav component.
