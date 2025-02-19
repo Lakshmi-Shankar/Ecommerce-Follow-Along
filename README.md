@@ -189,3 +189,9 @@ In this milestone, we developed the My Products page, which displays only the pr
 
 In this milestone, we created a edit button to modify the already entered details which makes the product more customizable. It allows the user to change all the details of the product.
 We have changed the product.js in controller and few major changes in frontend.
+
+
+**MileStone -14 Creating an delete button**
+
+In this milestone, we created a delete button to delete the already entered details which makes the product page more customizable. It allows the user to delete the product.
+We have changed the product.js in controller and few major changes in frontend.
