@@ -205,4 +205,14 @@ In this milestone, we created a reusable and responsive navigation bar for our e
 Tech Stalk :
 
 Frontend:
-React.js – For building the Nav component.
+React.js - For building the Nav component.
+
+
+
+**Milestone 16 - Product Info Page**
+In this milestone, we created a Product Info Page that displays detailed product data. Users can choose the quantity and click the Add to Cart button to add items to their cart.
+
+
+Tech Stack:
+Frontend:
+ React.js – For building the Product Info Page.
