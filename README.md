@@ -228,3 +228,15 @@ Update User Schema – Add a cart field to store products.
 Create Cart Schema – Define how products are stored in the cart.
 Implement API Endpoint – Receive and store product details in the cart.
 By the end, your backend will support adding products to a user’s cart and storing them in the database.
+
+
+*Milestone 18 - Backend API for Cart Page*
+In this milestone, we created backend endpoints to interact with the cart page and manage cart data for users.
+
+Features Implemented:
+Create an endpoint to receive requests from the cart page.
+Create a backend endpoint to fetch all products inside the cart using the user's email.
+
+Tech Stack:
+Backend:  MongoDB
+Frontend: React.js
