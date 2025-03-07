@@ -240,3 +240,14 @@ Create a backend endpoint to fetch all products inside the cart using the user's
 Tech Stack:
 Backend:  MongoDB
 Frontend: React.js
+
+
+**Milestone 19 - Cart Page Frontend & Quantity Management API**
+
+*Overview:*
+
+In this milestone, we will create the cart page UI, display products from the backend API, and implement functionality to increase and decrease product quantity using backend endpoints.
+
+Tech stalk :
+Frontend: React.js
+Backend : mongoDB
