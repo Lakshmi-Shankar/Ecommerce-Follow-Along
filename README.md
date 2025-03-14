@@ -325,6 +325,18 @@ Frontend: React
 
 Backend: Node.js, Express.js
 
-Database: MongoDB\
+Database: MongoDB
+
+
+# Milestone 24: Order Confirmation Page
+
+## Overview
+In this milestone, we will build the Order Confirmation page for our application. This page will display the ordered products, the selected delivery address, and the total price details. Additionally, it will feature a "Place Order" button to finalize the purchase.
+
+## Steps to Implement 📝
+1. *Display Ordered Products:* Show all the products the user is purchasing, including images, names, prices, and quantities.
+2. *Show Selected Address:* Retrieve and display the address the user has chosen for delivery.
+3. *Calculate Total Price:* Compute the total cost of the order, including any applicable taxes or discounts.
+4. *Add Place Order Button:* Provide a button to confirm the order and proceed with the checkout process.
 
 
