@@ -340,3 +340,26 @@ In this milestone, we will build the Order Confirmation page for our application
 4. *Add Place Order Button:* Provide a button to confirm the order and proceed with the checkout process.
 
 
+#  Milestone 25: create an backend endpoint for place order
+
+# Overview:
+
+This milestone focuses on creating an Express backend endpoint that handles placing orders. It receives product details, user information, and address data, then processes and stores the order in MongoDB.
+
+
+Features:
+
+- Accepts user email, products, and address details.
+
+- Retrieves user ID from the email.
+
+- Creates individual orders per product.
+
+- Saves orders to the MongoDB orders collection.
+
+
+# Milestone 26 -Get User Orders Endpoint 
+
+# Overview:
+
+This milestone focuses on creating an Express backend endpoint that fetches all orders for a specific user. It receives the user's email, retrieves the user’s ID, and fetches the corresponding orders from MongoDB.

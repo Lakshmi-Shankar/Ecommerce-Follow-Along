@@ -1,5 +1,5 @@
 
-const app = require("./app");
+const app = require("./App");
 const connectDatabase = require("./db/Database");
 
 // Handling uncaught Exception when setting up backend server
