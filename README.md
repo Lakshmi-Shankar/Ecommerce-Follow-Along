@@ -382,3 +382,13 @@ Tech Stack
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Frontend: React
+
+*Milestone 28 - Cancel Order Feature*
+
+# Overview
+In this milestone, we will enhance the My Order page by adding a Cancel Order button for each order. Users will be able to cancel an order unless it has already been canceled. We will implement a new backend endpoint to update the order status to Canceled when the button is clicked.
+
+Tech Stack
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Frontend: React
