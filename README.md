@@ -371,3 +371,14 @@ Features:
 - Detailed Order Info: Includes product, quantity, address, and status.
 
 - Error Handling: Handles missing users or orders.
+
+
+*Milestone 27 - My Orders Page*
+
+# Overview
+In this milestone, we will create a My Orders page where users can view their order history. We will fetch user-specific orders from the backend by making a GET request to the /my-orders endpoint, passing the user's email. The retrieved orders will then be displayed on the frontend. Additionally, we will update the navigation bar to include a link to the My Orders page for easier access.
+
+Tech Stack
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Frontend: React
