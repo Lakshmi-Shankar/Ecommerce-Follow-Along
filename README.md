@@ -392,3 +392,20 @@ Tech Stack
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Frontend: React
+
+
+*Milestone 29 - PayPal Integration*
+
+Overview
+
+In this milestone, we will integrate PayPal as an online payment option in the Order Confirmation page. Users can choose between Cash on Delivery (COD) and Online Payment (PayPal). Selecting Online Payment will display the PayPal buttons.
+
+Tech Stack
+
+Backend: Node.js, Express.js
+
+Database: MongoDB
+
+Frontend: React
+
+Payment Gateway: PayPal
