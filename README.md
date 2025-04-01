@@ -411,7 +411,7 @@ Frontend: React
 Payment Gateway: PayPal
 
 
-# PayPal Payment Integration
+# Milestone 30
 
 1. Install the `@paypal/react-paypal-js` package in your project.
 2. Wrap your app with `PayPalScriptProvider` and provide your PayPal Client ID.
@@ -422,3 +422,7 @@ Payment Gateway: PayPal
 
 This integration allows users to make secure payments via PayPal, credit, and debit cards. 🚀
 
+
+# Milestone 31: React-Redux Email State
+
+Install `react-redux` and create a `store` folder. Add `store.js` and `userActions.js`. Set up email state in `store.js` and create `setEmail` function in `userActions.js`. Wrap `App` with `Provider` in `index.js` and pass the store to it. Email state is now global and can be used anywhere in the app. Next: Updating and accessing email state.
