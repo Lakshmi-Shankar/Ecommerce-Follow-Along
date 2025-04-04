@@ -426,3 +426,16 @@ This integration allows users to make secure payments via PayPal, credit, and de
 # Milestone 31: React-Redux Email State
 
 Install `react-redux` and create a `store` folder. Add `store.js` and `userActions.js`. Set up email state in `store.js` and create `setEmail` function in `userActions.js`. Wrap `App` with `Provider` in `index.js` and pass the store to it. Email state is now global and can be used anywhere in the app. Next: Updating and accessing email state.
+
+
+# Milestone 32: Managing Mail with Global State (Redux)
+
+Overview:
+- On the Login page, we used dispatch to save the email.
+
+- On other pages, we used useSelector to access the email from the global state.
+
+- This makes the email available across all pages without passing it as props.
+
+Tech Stack:
+- State Management: Redux, React-Redux

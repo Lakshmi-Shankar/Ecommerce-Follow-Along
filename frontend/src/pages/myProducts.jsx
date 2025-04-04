@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from "react";
 import MyProduct from "../components/myproducts";
 import NavBar from "../components/NavBar";
+import { useSelector } from "react-redux";
 
 
 export default function MyProducts() {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const email = "lakshmi7708671565@gmail.com";
+    const userEmail = useSelector((state)=>state.user.userEmail);
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/api/v2/product/my-products?email=${email}`)
+        fetch(`http://localhost:5000/api/v2/product/my-products?userEmail=${userEmail}`)
             .then((res) => {
                 if (!res.ok) {
                     throw new Error(`HTTP error! status: ${res.status}`);
@@ -27,7 +28,7 @@ export default function MyProducts() {
                 setError(err.message);
                 setLoading(false);
             });
-    }, [email]);
+    }, [userEmail]);
 
 
     if (loading) {

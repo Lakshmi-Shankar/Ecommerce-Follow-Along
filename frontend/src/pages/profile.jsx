@@ -2,17 +2,20 @@ import React, { useEffect, useState } from "react";
 import AddressCard from "../components/AddressCard";
 import Nav from "../components/NavBar";
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 
 export default function Profile() {
+    const userEmail = useSelector((state)=>state.user.email);
     const [personalDetails, setPersonalDetails] = useState({
         name: "",
         email: "",
         phoneNumber: "",
         avatarUrl: "",
     });
-
-
+    
+    
+  
     const [addresses, setAddresses] = useState([]);
 
     const navigate = useNavigate();
@@ -23,8 +26,9 @@ export default function Profile() {
 
 
     useEffect(() => {
+        if(!userEmail) return;
         fetch(
-            `http://localhost:5000/api/v2/user/profile?email=${"lakshmi7708671565@gmail.com"}`,
+            `http://localhost:5000/api/v2/user/profile?email=${userEmail}`,
             {
                 method: "GET",
                 headers: {
@@ -44,7 +48,7 @@ export default function Profile() {
                 console.log("User fetched:", data.user);
                 console.log("Addresses fetched:", data.addresses);
             });
-    }, []);
+    }, [userEmail]);
     return (
         <>
             <Nav />

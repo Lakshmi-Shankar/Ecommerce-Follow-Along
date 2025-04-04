@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Nav from '../components/NavBar'; // Ensure correct casing
 import { useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 
 const SelectAddress = () => {
@@ -11,10 +12,8 @@ const SelectAddress = () => {
     const [error, setError] = useState(null);
     const navigate = useNavigate();
 
+    const userEmail = useSelector((state)=>state.user.email);
 
-
-
-    const userEmail = 'lakshmi7708671565@gmail.com';
 
 
     useEffect(() => {

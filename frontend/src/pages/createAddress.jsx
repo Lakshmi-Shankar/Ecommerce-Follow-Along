@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Nav from "../components/NavBar";
+import { useSelector } from "react-redux";
 
 
 const CreateAddress = () => {
@@ -14,6 +15,7 @@ const CreateAddress = () => {
     const [address2, setAddress2] = useState("");
     const [zipCode, setZipCode] = useState("");
     const [addressType, setAddressType] = useState("");
+    const userEmail = useSelector((state)=>state.user.email);
 
 
     const handleSubmit = async (e) => {
@@ -25,7 +27,7 @@ const CreateAddress = () => {
             address2,
             zipCode,
             addressType,
-            email: "lakshmi7708671565@gmail.com"
+            email: userEmail
         };
 
 
