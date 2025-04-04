@@ -439,3 +439,12 @@ Overview:
 
 Tech Stack:
 - State Management: Redux, React-Redux
+
+*Milestone 33 - Saving Password and Setting JWT Token in Cookie*
+
+ Overview
+In this milestone, you'll learn how to securely generate a JWT token upon user login and store it in the browser using cookies. This is essential for handling authenticated sessions in full-stack web applications.
+
+Tech Stack:
+Backend :Express.js,jsonwebtoken
+Database: Mongodb
