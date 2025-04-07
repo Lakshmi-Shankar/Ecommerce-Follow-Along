@@ -448,3 +448,20 @@ In this milestone, you'll learn how to securely generate a JWT token upon user l
 Tech Stack:
 Backend :Express.js,jsonwebtoken
 Database: Mongodb
+
+
+# Milestone 34: JWT Token Validation from Cookies.
+
+Overview:
+- In this milestone, we will learn how to validate a JWT token stored in cookies to ensure secure access to protected pages.
+
+Key Features:
+- Secure Token Storage: JWT stored in HTTP-only cookies for enhanced security.
+
+- Token Extraction: Client reads and sends the JWT from cookies.
+
+- Middleware Validation: Server verifies the JWT before granting access to protected routes.
+
+- Route Protection: Unauthorized users are redirected to the login page.
+
+- Reusable Middleware: Easily apply authentication logic across multiple backend routes.

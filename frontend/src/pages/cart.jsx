@@ -20,6 +20,7 @@ import Nav from '../components/NavBar';
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import axios from '../axiosConfig';
 
 
 const Cart = () => {
@@ -31,7 +32,7 @@ const Cart = () => {
 
     useEffect(() => {
       if(!userEmail)return;
-        fetch(`http://localhost:5000/api/v2/product/cartproducts?email=${userEmail}`)
+        axios.get(`/api/v2/product/cartproducts?email=${userEmail}`)
           .then((res) => {
             if (!res.ok) {
               throw new Error(`HTTP error! status: ${res.status}`);
